@@ -1,0 +1,49 @@
+.container  {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 5px 5px 43px 17px #999;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container #display {
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px 8px;
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container .buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.container .buttons .button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: rgb(253, 109, 52);
+    color: #fff;
+}
+
+.container .buttons .button:hover {
+    background-color: rgb(26, 22, 65);
+    color: #fff;
+    transition: .5s ease-in-out;
+}
